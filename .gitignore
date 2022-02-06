@@ -12,3 +12,7 @@
 .classpath
 .project
 
+# IntelliJ
+.idea
+*.iml
+
