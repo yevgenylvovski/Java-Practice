@@ -1,4 +1,5 @@
 package exercises;
+
 /*
   v)
         1
@@ -10,15 +11,16 @@ package exercises;
  */
 public class Number8Shape4 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int number = 1;
-		while (number <=5){
-			for (int i =1;i<= number;i++) System.out.print(i);
-			System.out.println();
-			number ++;
-			
-		}
+	int number = 1;
+	while (number <= 5) {
+	    for (int i = 1; i <= number; i++)
+		System.out.print(i);
+	    System.out.println();
+	    number++;
+
 	}
+    }
 
 }
