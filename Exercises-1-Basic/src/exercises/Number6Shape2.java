@@ -8,7 +8,6 @@ package exercises;
 ***
 ****
 *****
-
  */
 public class Number6Shape2 {
 
@@ -21,19 +20,6 @@ public class Number6Shape2 {
 
 	    System.out.println();
 	    number++;
-
-	    /*
-	     * int number=1; while (number <=5) { for (int i = 1; i <= number; i++)
-	     * System.out.print("*");
-	     * 
-	     * System.out.println(); number++;
-	     */
-//		/* 
-//		 int number = 1;
-//		 while (number <=5) {
-//		 for (int i =1; i <= number; i++) System.out.print("*);
-//		 System.out.println(); number ++;
-//		 */
 	}
     }
 }
