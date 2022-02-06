@@ -6,13 +6,13 @@ package exercises;
 public class Num2 {
 
     public static void main(String[] args) {
-	int i = 1;
-	int sum = 0;
-	for (i = 1; i <= 10; i++) {
-	    sum = sum + i;
-	}
+        int i = 1;
+        int sum = 0;
+        for (i = 1; i <= 10; i++) {
+            sum = sum + i;
+        }
 
-	System.out.println("Sum: " + sum);
+        System.out.println("Sum: " + sum);
     }
 
 }
