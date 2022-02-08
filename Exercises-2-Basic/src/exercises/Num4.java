@@ -13,8 +13,8 @@ int secondNum = 5;
 int firstNum = 3;
  */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
 }
+// don't know how to do'

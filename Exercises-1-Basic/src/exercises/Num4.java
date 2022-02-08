@@ -12,15 +12,15 @@ public class Num4 {
     public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 
-	System.out.print("Input number: ");
+	System.out.print("number: ");
 	int number = sc.nextInt();
 
-	System.out.print("Input raise number: ");
-	int raise = sc.nextInt();
+	System.out.print("raisenumber: ");
+	int raisenumber = sc.nextInt();
 
 	int i = 1;
 
-	for (i = 1; i <= raise; i++) {
+	for (i = 1; i <= raisenumber; i++) {
 	    number = number * i;
 	}
 	System.out.println(number);
