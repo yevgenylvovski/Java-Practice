@@ -18,8 +18,8 @@ public class Number6Shape2 {
 	    for (int i = 1; i <= number; i++)
 		System.out.print("*");
 
-	    System.out.println();
 	    number++;
+	    System.out.println();
 	}
     }
 }
