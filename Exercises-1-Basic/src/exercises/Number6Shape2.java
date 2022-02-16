@@ -1,6 +1,5 @@
 package exercises;
-/*
-   ii)
+/* ii)
 *
 **
 ***

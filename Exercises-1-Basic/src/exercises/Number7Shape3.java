@@ -1,19 +1,14 @@
 package exercises;
-
 /*
   iv)
-	
-
         *  (5-1)
        ** (5-2)
       ***
     *****
   *******
 *********
-
  */
 public class Number7Shape3 {
-
     public static void main(String[] args) {
 	int number = 1;
 	while (number <= 5) {
@@ -25,7 +20,5 @@ public class Number7Shape3 {
 	    System.out.println();
 	    number++;
 	}
-
     }
-
 }

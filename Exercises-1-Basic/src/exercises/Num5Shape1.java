@@ -2,7 +2,6 @@ package exercises;
 
 /*
  *  i) do shape
-	
 **********
 **********
 **********
