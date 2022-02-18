@@ -1,5 +1,7 @@
 package exercises;
 
+import java.util.Scanner;
+
 public class Num4 {
 /*
   4.
@@ -13,8 +15,21 @@ int secondNum = 5;
 int firstNum = 3;
  */
 	public static void main(String[] args) {
+	    int x, y, z;
+	    Scanner in = new Scanner(System.in);
 
+	    System.out.println("Input firstNum: ");
+	    x = in.nextInt();
+	    System.out.println("Input secondNum: ");
+	    y = in.nextInt();
+
+	    z = x;
+	    x = y;
+	    y = z;
+
+	    System.out.println("Swap two variables: " + x + " and " + y);
+	   }
+	 
 	}
 
-}
-// don't know how to do'
+

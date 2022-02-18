@@ -18,6 +18,7 @@ public class Num6 {
 	
 	if (i % 2 == 0) {
 	    System.out.println(1);
+	    sc.close();
 	} else {
 	    System.out.println(0);
 	    sc.close();

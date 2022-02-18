@@ -15,11 +15,8 @@ public class Num2 {
 	System.out.print("Enter the radius: ");
 	double radius = sc.nextDouble();
 
-	// Area = PI*radius*radius
 	double area = Math.PI * (radius * radius);
-
 	System.out.println("The area of circle is: " + area);
-	// Perimeter = 2*PI*radius
 
 	double perimeter = Math.PI * 2 * radius;
 	System.out.println("Perimeter of a circle is:" + perimeter);

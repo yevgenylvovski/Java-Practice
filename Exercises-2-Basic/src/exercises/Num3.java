@@ -19,7 +19,7 @@ public class Num3 {
 	System.out.print("Input third number: ");
 	int num3 = sc.nextInt();
 
-	System.out.println("Average of five numbers is: " + (num1 + num2 + num3) / 3);
+	System.out.println("Average of three numbers is: " + (num1 + num2 + num3) / 3);
 
 	sc.close();
     }

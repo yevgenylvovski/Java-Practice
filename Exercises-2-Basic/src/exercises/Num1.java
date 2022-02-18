@@ -21,33 +21,37 @@ public class Num1 {
 	Scanner in = new Scanner(System.in);
 
 	System.out.print("Input first number: ");
-	int firstnumber = in.nextInt();
+	int firstNumber = in.nextInt();
 
 	System.out.print("Input second number: ");
-	int secondnumber = in.nextInt();
+	int secondNumber = in.nextInt();
+	if (secondNumber == 0) {
+	    System.out.print("The second must not be 0. Please execute the application again and input a correct number");
+	    return;
+	}
 // Important note: The second number must be bigger than 0
 
 	int result;
 
 	// +
-	result = firstnumber + secondnumber;
-	System.out.println(firstnumber + " + " + secondnumber + " = " + result);
+	result = firstNumber + secondNumber;
+	System.out.println(firstNumber + " + " + secondNumber + " = " + result);
 
 	// -
-	result = firstnumber - secondnumber;
-	System.out.println(firstnumber + " - " + secondnumber + " = " + result);
+	result = firstNumber - secondNumber;
+	System.out.println(firstNumber + " - " + secondNumber + " = " + result);
 
 	// *
-	result = firstnumber * secondnumber;
-	System.out.println(firstnumber + " * " + secondnumber + " = " + result);
+	result = firstNumber * secondNumber;
+	System.out.println(firstNumber + " * " + secondNumber + " = " + result);
 
 	// /
-	result = firstnumber / secondnumber;
-	System.out.println(firstnumber + " / " + secondnumber + " = " + result);
+	result = firstNumber / secondNumber;
+	System.out.println(firstNumber + " / " + secondNumber + " = " + result);
 
 	// %
-	result = firstnumber % secondnumber;
-	System.out.println(firstnumber + " % " + secondnumber + " = " + result);
+	result = firstNumber % secondNumber;
+	System.out.println(firstNumber + " % " + secondNumber + " = " + result);
 
     }
 
