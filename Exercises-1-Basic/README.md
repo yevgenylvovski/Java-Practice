@@ -97,3 +97,4 @@ public class PowerDemo
 ![img.png](img.png)
 
 
+https://www.javatpoint.com/how-to-print-pattern-in-java
