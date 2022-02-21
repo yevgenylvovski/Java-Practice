@@ -31,5 +31,3 @@ int firstNum = 3;
 	   }
 	 
 	}
-
-
