@@ -3,18 +3,26 @@ package exercises;
 //Write a program to find the value of one number raised to the power of another. 
 //(Do not use Java built-in method).
 
+import java.util.Scanner;
+
 public class Num4 {
     public static void main(String[] args) {
-	int power = 3;
-	int number = 2;
-	int result = calculatePower(2, 3);
-	System.out.print(number + " raised to power " + power + " is : ");
-	System.out.print(result);
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Your number: "); 
+	int yourNumber = sc.nextInt();
+	
+	Scanner n = new Scanner(System.in);
+	System.out.println("Your power number: ");
+	int yourPowerNumber = n.nextInt();
+	int result = calculatePower(yourNumber, yourPowerNumber);
+	
+	System.out.print(yourNumber + " x " + yourPowerNumber + " = " + result);
     }
-    private static int calculatePower(int number, int power) {
-	if (power == 0) {
+    private static int calculatePower(int yourNumber, int yourPowerNumber) {
+	if (yourPowerNumber == 0) {
 	    return 1;
 	}
-	return number * calculatePower(number, --power);
+	return yourNumber * calculatePower(yourNumber, --yourPowerNumber);
     }
-}
+    }
+
