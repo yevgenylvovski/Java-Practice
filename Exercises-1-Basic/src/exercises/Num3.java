@@ -11,10 +11,10 @@ public class Num3 {
 	int yourNumber = sc.nextInt();
 
 	int i = 1;
-	int result = yourNumber * i;
-	
+	  	
 	for (i = 1; i <= 10; i++) {
-	    System.out.printf("%d*%d=%d", yourNumber, i, result).println();
+	    int result = yourNumber * i;
+	    System.out.println(yourNumber + "x" + i + "=" + result);
 	}
 	sc.close();
     }
