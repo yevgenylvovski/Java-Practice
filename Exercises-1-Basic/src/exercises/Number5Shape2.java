@@ -6,7 +6,7 @@ package exercises;
 ****
 *****
  */
-public class Number6Shape2 {
+public class Number5Shape2 {
     public static void main(String[] args) {
 	int number = 1;
 	while (number <= 5) {

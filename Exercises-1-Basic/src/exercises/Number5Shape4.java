@@ -8,7 +8,7 @@ package exercises;
      4444444
     555555555
  */
-public class Number8Shape4 {
+public class Number5Shape4 {
     public static void main(String[] args) {
 	for (int i = 1; i <= 5; i++) {
 	    for (int j = 5 - i; j >= 1; j--) {

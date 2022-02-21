@@ -11,7 +11,7 @@ package exercises;
  *****
 
  */
-public class Number10Shape6 {
+public class Number5Shape6 {
 
     public static void main(String[] args) {
 	int number = 1;
