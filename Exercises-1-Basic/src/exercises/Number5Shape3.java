@@ -19,9 +19,9 @@ public class Number5Shape3 {
 	    for (int i = 1; i <= number; i++) {
 		System.out.print("*");
 	    }
+	    
 	    System.out.println();
 	    number++;
-	    
 	}
     }
 }
