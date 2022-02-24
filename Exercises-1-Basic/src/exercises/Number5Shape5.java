@@ -19,19 +19,14 @@ public class Number5Shape5 {
 	    space = "";
 	    left = "";
 	    right = "";
-	    for(int s = 1; s<= (5 - number); s++) {
-	         space += " ";
-	    }
-	    for(int l = number; l >= 2; l--) {
-	         left += l;
-	    }
-	    for(int r = 2; r<= number; r++) { 
-	         right += r;
-	    }
+	    for(int s = 1; s<= (5 - number); s++)space += " ";
+	    for(int l = number; l >= 2; l--)left += l;
+	    for(int r = 2; r<= number; r++)right += r;
+	    
 	    record = space + left + "1" + right + "\n";
 	    result = result + record;
 	    number++;
 	}
 	System.out.println(result);
-    }
+}
 }

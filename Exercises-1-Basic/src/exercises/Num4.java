@@ -24,4 +24,3 @@ public class Num4 {
 	return yourNumber * calculatePower(yourNumber, --yourPowerNumber);
     }
     }
-
