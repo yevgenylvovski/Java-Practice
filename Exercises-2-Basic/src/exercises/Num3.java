@@ -1,12 +1,11 @@
 package exercises;
-
 import java.util.Scanner;
-
+/*
+ * Write a Java program that takes 3 numbers as input to calculate and print the
+ * average of the numbers.
+ */
 public class Num3 {
-    /*
-     * Write a Java program that takes 3 numbers as input to calculate and print the
-     * average of the numbers.
-     */
+   
     public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 

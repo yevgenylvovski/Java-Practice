@@ -19,12 +19,15 @@ public class Num5 {
 	System.out.print("Input second number: "); 
 	number2 = input.nextInt();  
 
-	if (number1 > number2)
+	if (number1 > number2) {
 	    System.out.printf("%d > %d\n", number1, number2);
-	if (number1 < number2)
+	}
+	if (number1 < number2) {
 	    System.out.printf("%d < %d\n", number1, number2);
-	if (number1 == number2)
+	}
+	if (number1 == number2) {
 	    System.out.printf("%d = %d\n", number1, number2);
+	}
     }
 
 }
