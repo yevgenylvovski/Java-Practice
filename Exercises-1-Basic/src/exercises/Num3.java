@@ -9,10 +9,8 @@ public class Num3 {
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Your number: ");
 	int yourNumber = sc.nextInt();
-
-	int i = 1;
-	  	
-	for (i = 1; i <= 10; i++) {
+	
+	for (int i = 1; i <= 10; i++) {
 	    int result = yourNumber * i;
 	    System.out.println(yourNumber + "x" + i + "=" + result);
 	}
