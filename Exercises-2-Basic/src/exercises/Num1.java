@@ -1,7 +1,6 @@
 package exercises;
 import java.util.Scanner;
-public class Num1 {
-    /* 1.
+/* 1.
     Write a Java program to print the sum (addition), multiply, subtract, divide and 
     remainder of two numbers.
     Test Data:
@@ -13,7 +12,8 @@ public class Num1 {
     125 x 24 = 3000
     125 / 24 = 5
     125 % 24 = 5
-    */
+ */
+public class Num1 {
     public static void main(String[] args) {
 
 	Scanner in = new Scanner(System.in);
