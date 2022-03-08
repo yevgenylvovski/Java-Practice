@@ -25,4 +25,3 @@ public class Num6 {
 	sc.close();
     }
 }
-}
