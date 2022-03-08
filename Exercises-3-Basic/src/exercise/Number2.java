@@ -7,7 +7,16 @@ package exercise;
 public class Number2 {
 
     public static void main(String[] args) {
+	int[] arr = new int[] { 2, 5, 1, 4, 10 };
 
+	double sum = 0;
+
+	for (int i = 0; i < arr.length; i++) {
+	    sum = sum + arr[i];
+	}
+
+	double average = sum / 5;
+	System.out.println("Average value: " + average);
     }
-
 }
+// A double is a number with a decimal
