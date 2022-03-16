@@ -11,6 +11,24 @@ public class Number3 {
 
     public static void main(String[] args) {
 
-    }
-
+	int[] arr = { 2, 5, 1, 4, 10 };
+	boolean isFound = false;
+	int num = 4;
+	
+	for(int i = 0; i < arr.length; i++) {
+	   
+    	    if (arr[i] == num) {
+    	        isFound = true;
+    	        break;
+	    }
+	}
+	
+	if (isFound = true) {
+    	   System.out.println("Yes");
+    	}
+    	else {
+    	   System.out.println("No");
+    	}   
 }
+    }
+    
