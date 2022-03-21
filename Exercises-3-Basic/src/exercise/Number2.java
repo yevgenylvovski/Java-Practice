@@ -10,7 +10,6 @@ public class Number2 {
 		int[] arr = new int[] { 2, 5, 1, 4, 10 };
 
 		double sum = 0;
-
 		for (int i = 0; i < arr.length; i++) {
 			sum = sum + arr[i];
 		}
@@ -18,4 +17,5 @@ public class Number2 {
 		double average = sum / 5;
 		System.out.println("Average value: " + average);
 	}
+	
 }
