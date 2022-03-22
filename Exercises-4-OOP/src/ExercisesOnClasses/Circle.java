@@ -1,19 +1,16 @@
 package ExercisesOnClasses;
-//An Introduction to Classes and Instances by Example - The Circle Class.
+// Ex: Yet New Circle Class.
 
 public class Circle {
 
 	private double radius;
-	private String color;
 
 	public Circle() {
-		radius = 1.0;
-		color = "red";
+		radius = 2.0;
 	}
 
 	public Circle(double r) {
 		radius = r;
-		color = "red";
 	}
 
 	public double getRadius() {
@@ -22,6 +19,7 @@ public class Circle {
 
 	public double getArea() {
 		return radius * radius * Math.PI;
+
 	}
-		
+
 }
