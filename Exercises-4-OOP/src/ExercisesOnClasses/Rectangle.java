@@ -38,4 +38,11 @@ public class Rectangle {
 	public Rectangle() {
 
 	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [length=" + length + ", width=" + width + ", area=" + area + ", perimeter=" + perimeter + "]";
+	}
+	
+	
 }
