@@ -1,4 +1,4 @@
-package ExercisesOnPolymorphismAbstractClassesAndInterfaces;
+package exercisesonpolymorphism;
 
 public class A {
 

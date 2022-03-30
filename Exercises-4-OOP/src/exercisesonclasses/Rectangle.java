@@ -1,11 +1,18 @@
-package ExercisesOnClasses;
+package exercisesonclasses;
 //Ex: The Rectangle Class.
 
 public class Rectangle {
-	private float length = 5.6f;
-	private float width = 7.8f;
-	private double area;
-	private double perimeter;
+	private float length = 1.0f;
+	private float width = 1.0f;
+
+	public Rectangle() {
+
+	}
+
+	public Rectangle(float length, float width) {
+		this.length = length;
+		this.width = width;
+	}
 
 	public float getLength() {
 		return length;
@@ -29,20 +36,12 @@ public class Rectangle {
 
 	public double getPerimeter() {
 		return (length + width) * 2;
-	}
-
-	public Rectangle(float f, float g) {
-
-	}
-
-	public Rectangle() {
 
 	}
 
 	@Override
 	public String toString() {
-		return "Rectangle [length=" + length + ", width=" + width + ", area=" + area + ", perimeter=" + perimeter + "]";
+		return "Rectangle [length=" + length + ", width=" + width + "]";
 	}
-	
-	
+
 }

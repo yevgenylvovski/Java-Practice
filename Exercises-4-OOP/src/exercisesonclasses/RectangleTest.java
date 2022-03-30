@@ -1,12 +1,15 @@
-package ExercisesOnClasses;
+package exercisesonclasses;
 
 public class RectangleTest {
 
 	public static void main(String[] args) {
+		// test constructors and to String
 		Rectangle r1 = new Rectangle(1.2f, 3.4f);
-		String message = r1.toString();
 		System.out.println(r1); // toString()
-		
+
+		r1.getWidth();
+		r1.getLength();
+
 		Rectangle r2 = new Rectangle(); // default constructor
 		System.out.println(r2);
 
@@ -20,7 +23,7 @@ public class RectangleTest {
 		// Test getArea() and getPerimeter()
 		System.out.printf("area is: %.2f%n", r1.getArea());
 		System.out.printf("perimeter is: %.2f%n", r1.getPerimeter());
-		//Circle circle1 = new Circle(5);
+		// Circle circle1 = new Circle(5);
 		// System.out.println(circle1);
 	}
 
