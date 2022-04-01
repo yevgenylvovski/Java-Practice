@@ -5,7 +5,6 @@ public class Employee {
 
 	int ID;
 	int salary;
-	int raiseSalary;
 	String firstName;
 	String lastName;
 
@@ -57,4 +56,3 @@ public class Employee {
 	}
 
 }
-// use the value from the user, i para, call funtion must pass i
