@@ -2,7 +2,7 @@ package inheritanceanimal;
 
 public class Animal {
 
-	String name;
+	 String name;
 
 	public Animal() {
 

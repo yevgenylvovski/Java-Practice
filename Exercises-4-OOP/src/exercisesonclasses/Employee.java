@@ -3,10 +3,10 @@ package exercisesonclasses;
 
 public class Employee {
 
-	int ID;
-	int salary;
-	String firstName;
-	String lastName;
+	private int ID;
+	private int salary;
+	private String firstName;
+	private String lastName;
 
 	public Employee(int ID, String firstName, String lastName, int salary) {
 		this.ID = ID;

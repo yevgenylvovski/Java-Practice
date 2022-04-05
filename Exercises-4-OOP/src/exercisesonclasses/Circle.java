@@ -1,5 +1,5 @@
 package exercisesonclasses;
-// Ex: Yet New Circle Class.
+// Ex:  New Circle Class.
 
 public class Circle {
 

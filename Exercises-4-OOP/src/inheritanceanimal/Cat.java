@@ -2,7 +2,7 @@ package inheritanceanimal;
 
 public class Cat extends Mammal {
 
-	String greets = "meow";
+	 String greets = "meow";
 
 	public Cat() {
 

@@ -2,10 +2,10 @@ package exercisesonclasses;
 
 public class InvoiceItem {
 
-	String ID;
-	String desc;
-	int qty;
-	double unitPrice;
+	private String ID;
+	private String desc;
+	private int qty;
+	private double unitPrice;
 	
 	public InvoiceItem(String ID, String desc, int qty, double unitPrice) {
 		this.ID = ID;
