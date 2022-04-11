@@ -9,7 +9,7 @@ public class Cat extends Mammal {
 		this.greets = greets;
 	}
 
-	public String getGreets() {
+	public String greets() {
 		return greets;
 	}
 
