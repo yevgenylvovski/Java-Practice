@@ -3,15 +3,12 @@ package inheritanceshape;
 public class Shape {
 	String color = "red";
 	boolean filled = true;
-
 	public Shape() {
-		
 	}
 
 	public Shape(String color, boolean filled) {
 		this.color = color;
 		this.filled = filled;
-
 	}
 
 	public String getColor() {

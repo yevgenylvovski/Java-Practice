@@ -1,5 +1,4 @@
 package exercisesonclasses;
-//Ex: The Rectangle Class.
 
 public class Rectangle {
 	private float length = 1.0f;

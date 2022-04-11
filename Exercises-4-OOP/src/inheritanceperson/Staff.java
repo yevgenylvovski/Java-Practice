@@ -3,19 +3,16 @@ package inheritanceperson;
 public class Staff extends Person {
 	private String school;
 	private double pay;
-
 	public Staff(String name, String address, String school, double pay) {
 		super(name, address);
 		this.school = school;
 		this.pay = pay;
-
 	}
 
 	public Staff(Person person, String school, double pay) {
 		super(person.getName(), person.getAddress());
 		this.school = school;
 		this.pay = pay;
-
 	}
 
 	public String getSchool() {
@@ -36,7 +33,7 @@ public class Staff extends Person {
 
 	@Override
 	public String toString() {
-		return "Staff [school=" + school + ", pay=" + pay + ", name=" + name + ", address=" + address + "]";
+		return "Staff [name=" + name + ", address=" + address + ", school=" + school + ", pay=" + pay + "]";
 	}
 
 }

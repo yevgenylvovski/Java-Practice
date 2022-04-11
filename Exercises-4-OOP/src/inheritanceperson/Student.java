@@ -1,9 +1,9 @@
 package inheritanceperson;
 
 public class Student extends Person {
-	String program;
-	int year;
-	double fee;
+	private String program;
+	private int year;
+	private double fee;
 
 	public Student(String name, String address, String program, int year, double fee) {
 		super(name, address);
@@ -16,11 +16,9 @@ public class Student extends Person {
 	// program, year, fee, name, address
 	public Student(Person person, String program, int year, double fee) {
 		super(person.getName(), person.getAddress());
-
 		this.program = program;
 		this.year = year;
 		this.fee = fee;
-
 	}
 
 	public String getProgram() {

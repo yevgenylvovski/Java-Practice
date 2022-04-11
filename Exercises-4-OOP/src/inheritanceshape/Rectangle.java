@@ -2,11 +2,10 @@ package inheritanceshape;
 
 public class Rectangle extends Shape {
 
-	double width = 1.0;
-	double length = 1.0;
+	 double width = 1.0;
+	 double length = 1.0;
 
 	public Rectangle() {
-
 	}
 
 	public Rectangle(double width, double length) {
@@ -20,16 +19,16 @@ public class Rectangle extends Shape {
 		this.length = length;
 	}
 
-	public Rectangle(double width, double length, Shape shape1) {
+		public Rectangle(double width, double length, Shape shape1) {
 		super(shape1.getColor(), shape1.isFilled());
 		this.width = width;
 		this.length = length;
 	}
 
-	public Rectangle(String color, boolean filled) {
+		public Rectangle(String color, boolean filled) {
 		this.color = color;
 		this.filled = filled;
-	}
+		}
 
 	public double getWidth() {
 		return width;
@@ -57,8 +56,8 @@ public class Rectangle extends Shape {
 
 	@Override
 	public String toString() {
-		return "Retangle [width=" + width + ", length=" + length + ", color=" + color + ", filled=" + filled
-				+ ", getArea()=" + getArea() + ", getPerimeter()=" + getPerimeter() + "]";
+		return "Rectangle [" + super.toString() + ", width=" + width + ", length=" + length + "]";
 	}
+
 
 }

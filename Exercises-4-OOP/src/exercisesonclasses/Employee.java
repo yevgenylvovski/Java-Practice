@@ -1,22 +1,21 @@
 package exercisesonclasses;
-//Ex: The Employee Class.
 
 public class Employee {
 
-	private int ID;
-	private int salary;
+	private int id;
 	private String firstName;
 	private String lastName;
+	private int salary;
 
-	public Employee(int ID, String firstName, String lastName, int salary) {
-		this.ID = ID;
+	public Employee(int id, String firstName, String lastName, int salary) {
+		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.salary = salary;
 	}
 
 	public int getID() {
-		return ID;
+		return id;
 	}
 
 	public String getFirstName() {
@@ -44,15 +43,14 @@ public class Employee {
 
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [ID=" + ID + ", salary=" + salary + ", firstName=" + firstName + ", lastName=" + lastName
-				+ "]";
-	}
-
 	public int raiseSalary(int i) {
 		this.salary = salary + (salary * i) / 100;
 		return salary;
+	}
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + firstName +" " + lastName + ", salary=" + salary + "]";
 	}
 
 }

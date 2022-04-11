@@ -4,10 +4,6 @@ public class Cat extends Mammal {
 
 	 String greets = "meow";
 
-	public Cat() {
-
-	}
-
 	public Cat(Mammal mammal1, String greets) {
 		super(mammal1.getName());
 		this.greets = greets;

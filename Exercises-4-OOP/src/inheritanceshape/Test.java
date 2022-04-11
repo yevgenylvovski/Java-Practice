@@ -12,7 +12,7 @@ public class Test {
 		Rectangle retangle1 = new Rectangle(1.0, 1.0, shape1);
 		System.out.println(retangle1);
 
-		Square square2 = new Square(2.0, retangle1);
+		Square square2 = new Square(1.0, retangle1);
 		System.out.println(square2);
 	}
 

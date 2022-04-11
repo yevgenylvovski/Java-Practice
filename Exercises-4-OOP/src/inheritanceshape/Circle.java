@@ -4,7 +4,6 @@ public class Circle extends Shape {
 	double radius = 1.0;
 
 	public Circle() {
-
 	}
 
 	public Circle(double radius) {
@@ -39,8 +38,6 @@ public class Circle extends Shape {
 
 	@Override
 	public String toString() {
-		return "Circle [radius=" + radius + ", color=" + color + ", filled=" + filled + ", getArea()=" + getArea()
-				+ ", getPerimeter()=" + getPerimeter() + "]";
+		return "Circle [" + super.toString() + ", radius=" + radius + "]";
 	}
-
 }
